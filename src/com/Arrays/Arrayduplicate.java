@@ -3,7 +3,7 @@ package com.Arrays;
 public class Arrayduplicate {
 
 	public static void main(String[] args) {
-		int[] arr = { 5, 2, 3, 5, 2, 1, 5 ,2};
+		int[] arr = { 5, 2, 5, 5, 2, 1, 5 ,2};
 
 		for (int i = 0; i < arr.length; i++) {
 			int count = 1;
