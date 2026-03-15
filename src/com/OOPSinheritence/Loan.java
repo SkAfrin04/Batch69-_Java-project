@@ -33,7 +33,24 @@ public class Loan {
 	double getRoi() {
 		return 9.5;
 	}
-
+	
+	public Number method1() {
+    	return 100;
+    }
+	
+	protected String method2() {
+		return "method2";
+	}
+	
+	private void method3() {
+		System.out.println("method 3 called!!");
+	}
+   public void method4() {
+	   System.out.println("Method4 called from parent!");
+   }
+   public static void method5() {
+	   System.out.println("Method5 called from parent!");
+   }
 	 boolean isValidMobile() {
 		System.out.println("Enter your Mobile no :");
 		String mobile = s.next();
